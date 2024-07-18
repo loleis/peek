@@ -82,6 +82,28 @@
 			"ext": "./drpy_js/哔哩影视[官].js"
 		},
 		{
+			"key": "网盘配置",
+			"name": "网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"ext": "./json/tokenm.json",
+			"order_num": 9999
+		},		
+		{
+			"key": "yydsys",
+			"name": "玩你老哥|网盘",
+			"type": 3,
+			"api": "csp_Wobg",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
+			"order_num": 9999
+		},			
+		{
 			"key": "hipy_js_4K-AV",
 			"name": "4K-AV(drpy_t3)",
 			"type": 3,
@@ -181,6 +203,17 @@
 				"ratio": 1.1
 			},
 			"order_num": 9999
+		},
+		{
+			"key": "hipy_js_310直播[球]",
+			"name": "310直播[球](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/310直播[球].js"
 		},
 		{
 			"key": "hipy_js_348电影网",
@@ -552,6 +585,28 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/哔嘀影视[优].js"
+		},
+		{
+			"key": "hipy_js_我的哔哩[官]1",
+			"name": "哔哩大全[官](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 1,
+			"ext": "./drpy_js/我的哔哩[官].js?type=url&params=../json/哔哩大全.json"
+		},
+		{
+			"key": "hipy_js_我的哔哩[官]0",
+			"name": "哔哩教育[官](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/我的哔哩[官].js?type=url&params=../json/小学教育.json"
 		},
 		{
 			"key": "hipy_js_哔哩直播[官]",
@@ -2303,18 +2358,6 @@
 			"order_num": 9999
 		},
 		{
-			"key": "yydsys",
-			"name": "玩你老哥|网盘",
-			"type": 3,
-			"api": "csp_Wobg",
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 1,
-			"timeout": 60,
-			"ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
-			"order_num": 9999
-		},
-		{
 			"key": "Wo4k",
 			"name": "玩偶4K|磁力",
 			"type": 3,
@@ -2395,16 +2438,6 @@
 			"ext": "./drpy_js/网飞猫[优].js"
 		},
 		{
-			"key": "网盘配置",
-			"name": "网盘及彈幕配置",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"ext": "./json/tokenm.json",
-			"order_num": 9999
-		},
-		{
 			"key": "hipy_js_往往影视[慢]",
 			"name": "往往影视[慢](drpy_t3)",
 			"type": 3,
@@ -2469,28 +2502,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/我播.js"
-		},
-		{
-			"key": "hipy_js_我的哔哩[官]",
-			"name": "我的哔哩[官](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/我的哔哩[官].js"
-		},
-		{
-			"key": "hipy_js_我的哔哩传参[官]",
-			"name": "我的哔哩传参[官](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/我的哔哩传参[官].js?type=url&params=../json/小学教育.json"
 		},
 		{
 			"key": "PushShare",
@@ -2875,6 +2886,28 @@
 			"ext": "./drpy_js/一起看[优].js"
 		},
 		{
+			"key": "hipy_js_一曲肝肠断",
+			"name": "一曲肝肠断(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/一曲肝肠断.js"
+		},
+		{
+			"key": "hipy_js_一支穿云箭",
+			"name": "一支穿云箭(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/一支穿云箭.js"
+		},
+		{
 			"key": "hipy_js_易点看影院[自动]",
 			"name": "易点看影院[自动](drpy_t3)",
 			"type": 3,
@@ -3200,6 +3233,17 @@
 			"ext": "./drpy_js/至臻[盘].js"
 		},
 		{
+			"key": "hipy_js_中华听书网[听]",
+			"name": "中华听书网[听](drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/中华听书网[听].js"
+		},
+		{
 			"key": "hipy_js_追剧兔",
 			"name": "追剧兔(drpy_t3)",
 			"type": 3,
@@ -3286,6 +3330,17 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/bilfun(自动).js"
+		},
+		{
+			"key": "hipy_js_cally66",
+			"name": "cally66(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/cally66.js"
 		},
 		{
 			"key": "hipy_js_freeok",
@@ -3540,70 +3595,6 @@
 	],
 	"parses": [
 		{
-			"name": "小蜜蜂LV",
-			"url": "https://jx.xmflv.cc/?url=",
-			"type": 0,
-			"ext": {
-				"flag": [
-					"qiyi",
-					"imgo",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
-					"youku",
-					"优酷",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"mgtv",
-					"芒果",
-					"sohu",
-					"xigua",
-					"fun",
-					"风行"
-				]
-			},
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},	
-		{
-			"name": "冰豆",
-			"url": "https://bd.jx.cn/?url=",
-			"type": 0,
-			"ext": {
-				"flag": [
-					"qiyi",
-					"imgo",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
-					"youku",
-					"优酷",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"mgtv",
-					"芒果",
-					"sohu",
-					"xigua",
-					"fun",
-					"风行"
-				]
-			},
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},		
-		{
 			"name": "777",
 			"url": "https://jx.777jiexi.com/player/?url=",
 			"type": 0,
@@ -3764,6 +3755,38 @@
 			}
 		},
 		{
+			"name": "冰豆",
+			"url": "https://bd.jx.cn/?url=",
+			"type": 0,
+			"ext": {
+				"flag": [
+					"qiyi",
+					"imgo",
+					"爱奇艺",
+					"奇艺",
+					"qq",
+					"qq 预告及花絮",
+					"腾讯",
+					"youku",
+					"优酷",
+					"pptv",
+					"PPTV",
+					"letv",
+					"乐视",
+					"leshi",
+					"mgtv",
+					"芒果",
+					"sohu",
+					"xigua",
+					"fun",
+					"风行"
+				]
+			},
+			"header": {
+				"User-Agent": "Mozilla/5.0"
+			}
+		},
+		{
 			"name": "m3u8TV",
 			"url": "https://jx.m3u8.tv/jiexi/?url=",
 			"type": 0,
@@ -3830,6 +3853,38 @@
 		{
 			"name": "虾米",
 			"url": "https://jx.xmflv.com/?url=",
+			"type": 0,
+			"ext": {
+				"flag": [
+					"qiyi",
+					"imgo",
+					"爱奇艺",
+					"奇艺",
+					"qq",
+					"qq 预告及花絮",
+					"腾讯",
+					"youku",
+					"优酷",
+					"pptv",
+					"PPTV",
+					"letv",
+					"乐视",
+					"leshi",
+					"mgtv",
+					"芒果",
+					"sohu",
+					"xigua",
+					"fun",
+					"风行"
+				]
+			},
+			"header": {
+				"User-Agent": "Mozilla/5.0"
+			}
+		},
+		{
+			"name": "虾米2",
+			"url": "https://jx.xmflv.cc/?url=",
 			"type": 0,
 			"ext": {
 				"flag": [
