@@ -2,8 +2,19 @@
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 	"homepage": "https://github.com/hjdhnx/hipy-server",
 	"homeLogo": "./img/logo500x200-1.png",
-	"spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
+	"spider": "./jar/pg.jar;md5;7633f8ea346c082b7aa163be58aed023",
 	"sites": [
+		{
+			"key": "hipy_js_豆瓣[官]",
+			"name": "🍥┃豆瓣┃推荐🍥首次加载稍慢，请稍等片刻... ...",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/豆瓣[官].js"
+		},	
 		{
 			"key": "hipy_js_360影视[官]",
 			"name": "360影视[官](drpy_t3)",
@@ -70,9 +81,35 @@
 			"order_num": 0,
 			"ext": "./drpy_js/百忙无果[官].js"
 		},
+    {
+      "key": "ConfigCenter",
+      "name": "网盘配置",
+      "type": 3,
+      "api": "csp_ConfigCenter",
+      "searchable": 0,
+      "changeable": 0,
+	  "jar": "https://cdn05042023.gitlink.org.cn/api/v1/repos/leevi0321/apps/raw/duo4k.jar",
+      "ext": {
+        "commonConfig": "https://cdn05042023.gitlink.org.cn/api/v1/repos/leevi0321/apps/raw/peizhi.json"
+      }
+    }, 
+    {
+      "key": "玩偶gg",
+      "name": "多多影音|网盘",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "https://cdn05042023.gitlink.org.cn/api/v1/repos/leevi0321/apps/raw/duo4k.jar",
+      "ext": {
+        "commonConfig": "https://cdn05042023.gitlink.org.cn/api/v1/repos/leevi0321/apps/raw/peizhi.json",
+        "siteUrl": "https://tv.yydsys.top/",
+        "filter": "https://cdn05042023.gitlink.org.cn/api/v1/repos/leevi0321/apps/raw/wogg.json"
+      }
+    },			
 		{
 			"key": "yyds",
-			"name": "多多影音|网盘",
+			"name": "玩偶老哥|网盘",
 			"type": 3,
 			"api": "csp_Wobg",
 			"quickSearch": 1,
@@ -1028,17 +1065,6 @@
 			"ext": "./drpy_js/斗鱼直播[官].js"
 		},
 		{
-			"key": "hipy_js_豆瓣[官]",
-			"name": "豆瓣[官](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/豆瓣[官].js"
-		},
-		{
 			"key": "hipy_js_豆角网",
 			"name": "豆角网(drpy_t3)",
 			"type": 3,
@@ -1720,6 +1746,17 @@
 			"order_num": 0,
 			"ext": "./drpy_js/酷我听书[听].js"
 		},
+		{
+			"key": "hipy_js_酷云77",
+			"name": "酷云77(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/酷云77.js"
+		},		
 		{
 			"key": "hipy_js_酷云影视",
 			"name": "酷云影视(drpy_t3)",
@@ -2601,8 +2638,18 @@
 			"order_num": 9999
 		},
 		{
-			"key": "yydsys",
-			"name": "玩你老哥|网盘",
+			"key": "网盘配置",
+			"name": "PGの配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"ext": "./json/tokenm.json",
+			"order_num": 9999
+		},		
+		{
+			"key": "yyds",
+			"name": "阿里老哥|网盘",
 			"type": 3,
 			"api": "csp_Wobg",
 			"quickSearch": 1,
@@ -2691,16 +2738,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/网飞猫[优].js"
-		},
-		{
-			"key": "网盘配置",
-			"name": "网盘及彈幕配置",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"ext": "./json/tokenm.json",
-			"order_num": 9999
 		},
 		{
 			"key": "hipy_js_往往影视[慢]",
@@ -4012,39 +4049,7 @@
 			"ext": "./drpy_js/voflix.js"
 		}
 	],
-	"parses": [
-		{
-			"name": "小蜜蜂",
-			"url": "https://jx.xmflv.cc/?url=",
-			"type": 0,
-			"ext": {
-				"flag": [
-					"qiyi",
-					"imgo",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
-					"youku",
-					"优酷",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"mgtv",
-					"芒果",
-					"sohu",
-					"xigua",
-					"fun",
-					"风行"
-				]
-			},
-			"header": {
-				"User-Agent": "Mozilla/5.0"
-			}
-		},
+		"parses": [	
 		{
 			"name": "冰豆",
 			"url": "https://bd.jx.cn/?url=",
@@ -4078,8 +4083,8 @@
 			}
 		},		
 		{
-			"name": "777",
-			"url": "https://jx.777jiexi.com/player/?url=",
+			"name": "pouyun",
+			"url": "https://www.pouyun.com/?url=",
 			"type": 0,
 			"ext": {
 				"flag": [
@@ -4206,8 +4211,8 @@
 			}
 		},
 		{
-			"name": "阳途",
-			"url": "https://jx.yangtu.top/?url=",
+			"name": "play",
+			"url": "https://www.playm3u8.cn/jiexi.php?url=",
 			"type": 0,
 			"ext": {
 				"flag": [
@@ -4302,8 +4307,8 @@
 			}
 		},
 		{
-			"name": "虾米",
-			"url": "https://jx.xmflv.com/?url=",
+			"name": "红狐",
+			"url": "https://player.mrgaocloud.com/player/?url=",
 			"type": 0,
 			"ext": {
 				"flag": [
@@ -4334,7 +4339,7 @@
 			}
 		},
 		{
-			"name": "云析",
+			"name": "水晶",
 			"url": "https://jx.yparse.com/index.php?url=",
 			"type": 0,
 			"ext": {
@@ -4366,8 +4371,8 @@
 			}
 		},
 		{
-			"name": "红狐",
-			"url": "https://player.mrgaocloud.com/player/?url=",
+			"name": "刺客",
+			"url": "https://www.ckplayer.vip/jiexi/?url=",
 			"type": 0,
 			"ext": {
 				"flag": [
