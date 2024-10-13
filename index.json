@@ -81,16 +81,32 @@
 			"order_num": 0,
 			"ext": "./drpy_js/百忙无果[官].js"
 		},
-		{
-			"key": "网盘配置",
-			"name": "网盘及彈幕配置",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"ext": "./json/tokenm.json",
-			"order_num": 9999
-		},
+    {
+      "key": "ConfigCenter",
+      "name": "网盘配置",
+      "type": 3,
+      "api": "csp_ConfigCenter",
+      "searchable": 0,
+      "changeable": 0,
+      "jar": "./jar/duo4k.jar",
+      "ext": {
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "玩偶gg",
+      "name": "多多影音|网盘",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "./jar/duo4k.jar",
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://tv.yydsys.top/",
+        "filter": "./json/wogg.json"
+      }
+    },		
 		{
 			"key": "hipy_js_多多影音",
 			"name": "多多影音(drpy_t3)",
@@ -3182,6 +3198,16 @@
 			"ext": "./drpy_js/歪片星球[资].js"
 		},
 		{
+			"key": "网盘配置",
+			"name": "网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"ext": "./json/tokenm.json",
+			"order_num": 9999
+		},		
+		{
 			"key": "yydsys",
 			"name": "玩你老哥|网盘",
 			"type": 3,
@@ -3190,7 +3216,7 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
+			"ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$noproxy$$$1$$$./json/wogg.json",
 			"order_num": 9999
 		},
 		{
