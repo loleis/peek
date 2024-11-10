@@ -5,6 +5,27 @@
 	"spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
 	"sites": [
 		{
+			"key": "hipy_js_豆瓣[官]",
+			"name": "🍥┃豆瓣┃推荐🍥首次加载稍慢，请稍等片刻... ...",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/豆瓣[官].js"
+		},	
+		{
+			"key": "网盘配置",
+			"name": "网盘及彈幕配置",
+			"type": 3,
+			"api": "csp_Config",
+			"searchable": 0,
+			"changeable": 0,
+			"ext": "./json/tokenm.json",
+			"order_num": 9999
+		},		
+		{
 			"key": "hipy_js_360影视[官]",
 			"name": "360影视[官](drpy_t3)",
 			"type": 3,
@@ -70,6 +91,18 @@
 			"order_num": 0,
 			"ext": "./drpy_js/百忙无果[官].js"
 		},
+		{
+			"key": "yydsys",
+			"name": "多多影音|网盘",
+			"type": 3,
+			"api": "csp_Wobg",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
+			"order_num": 9999
+		},		
 		{
 			"key": "hipy_js_哔哩影视[官]",
 			"name": "哔哩影视[官](drpy_t3)",
@@ -1212,17 +1245,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/斗鱼直播[官].js"
-		},
-		{
-			"key": "hipy_js_豆瓣[官]",
-			"name": "豆瓣[官](drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/豆瓣[官].js"
 		},
 		{
 			"key": "hipy_js_豆角网",
@@ -3156,15 +3178,15 @@
 			"ext": "./drpy_js/歪片星球[资].js"
 		},
 		{
-			"key": "yydsys",
-			"name": "玩你老哥|网盘",
+			"key": "yydsby",
+			"name": "多多备用|网盘",
 			"type": 3,
 			"api": "csp_Wobg",
 			"quickSearch": 1,
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
+			"ext": "./json/tokenm.json$$$https://tv.yydsys.cc/$$$proxy$$$1$$$./json/wogg.json",
 			"order_num": 9999
 		},
 		{
@@ -3246,16 +3268,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/网飞猫[优].js"
-		},
-		{
-			"key": "网盘配置",
-			"name": "网盘及彈幕配置",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"ext": "./json/tokenm.json",
-			"order_num": 9999
 		},
 		{
 			"key": "hipy_js_往往影视[慢]",
