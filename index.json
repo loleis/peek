@@ -3,8 +3,7 @@
 	"homepage": "https://github.com/hjdhnx/hipy-server",
 	"homeLogo": "./img/logo500x200-1.png",
 	"spider": "./jar/pg.jar;md5;7633f8ea346c082b7aa163be58aed023",
-	"sites": [
-		{
+	"sites": [{
 			"key": "hipy_js_豆瓣[官]",
 			"name": "🍥┃豆瓣┃推荐🍥首次加载稍慢，请稍等片刻... ...",
 			"type": 3,
@@ -14,7 +13,7 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/豆瓣[官].js"
-		},	
+		},
 		{
 			"key": "网盘配置",
 			"name": "网盘及彈幕配置",
@@ -24,7 +23,7 @@
 			"changeable": 0,
 			"ext": "./json/tokenm.json",
 			"order_num": 9999
-		},		
+		},
 		{
 			"key": "hipy_js_360影视[官]",
 			"name": "360影视[官](drpy_t3)",
@@ -102,7 +101,7 @@
 			"timeout": 60,
 			"ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
 			"order_num": 9999
-		},		
+		},
 		{
 			"key": "hipy_js_哔哩影视[官]",
 			"name": "哔哩影视[官](drpy_t3)",
@@ -3200,7 +3199,7 @@
 			"timeout": 60,
 			"ext": "./json/tokenm.json$$$https://tv.yydsys.cc/$$$proxy$$$1$$$./json/wogg.json",
 			"order_num": 9999
-		},		
+		},
 		{
 			"key": "Wobg",
 			"name": "玩偶表哥|网盘",
@@ -4832,8 +4831,7 @@
 			"ext": "./drpy_js/xvideos涩涩[密].js"
 		}
 	],
-	"parses": [
-		{
+	"parses": [{
 			"name": "777",
 			"url": "https://jx.777jiexi.com/player/?url=",
 			"type": 0,
@@ -5239,41 +5237,38 @@
 		"bilibili",
 		"renrenmi"
 	],
-	"lives": [
-		{
-			"group": "redirect",
-			"channels": [
-				{
-					"name": "稳定github直播",
-					"urls": [
-						"proxy://do=live&type=txt&ext=https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/heads/main/static/lives/lives.txt"
-					]
-				},
-				{
-					"name": "华数2",
-					"urls": [
-						"proxy://do=live&type=txt&ext=http://127.0.0.1:9978/api/v1/file/drpy_dzlive/lives/华数2.m3u"
-					]
-				},
-				{
-					"name": "杭州华数",
-					"urls": [
-						"proxy://do=live&type=txt&ext=http://127.0.0.1:9978/api/v1/file/drpy_dzlive/lives/杭州华数.m3u"
-					]
-				},
-				{
-					"name": "云星日记直播",
-					"urls": [
-						"proxy://do=live&type=txt&ext=http://itvbox.cc/云星日记/Ipv4.txt"
-					]
-				},
-				{
-					"name": "本地嗅探器直播",
-					"urls": [
-						"proxy://do=live&type=txt&ext=http://127.0.0.1:5708/ysp"
-					]
-				}
-			]
-		}
-	]
+	"lives": [{
+		"group": "redirect",
+		"channels": [{
+				"name": "稳定github直播",
+				"urls": [
+					"proxy://do=live&type=txt&ext=https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/heads/main/static/lives/lives.txt"
+				]
+			},
+			{
+				"name": "华数2",
+				"urls": [
+					"proxy://do=live&type=txt&ext=http://127.0.0.1:9978/api/v1/file/drpy_dzlive/lives/华数2.m3u"
+				]
+			},
+			{
+				"name": "杭州华数",
+				"urls": [
+					"proxy://do=live&type=txt&ext=http://127.0.0.1:9978/api/v1/file/drpy_dzlive/lives/杭州华数.m3u"
+				]
+			},
+			{
+				"name": "云星日记直播",
+				"urls": [
+					"proxy://do=live&type=txt&ext=http://itvbox.cc/云星日记/Ipv4.txt"
+				]
+			},
+			{
+				"name": "本地嗅探器直播",
+				"urls": [
+					"proxy://do=live&type=txt&ext=http://127.0.0.1:5708/ysp"
+				]
+			}
+		]
+	}]
 }
