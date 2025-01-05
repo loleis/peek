@@ -26,6 +26,29 @@
 			"order_num": 9999
 		},		
 		{
+			"key": "yyds",
+			"name": "多多影音|网盘",
+			"type": 3,
+			"api": "csp_Wobg",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./json/tokenm.json$$$https://tv.yydsys.cc/$$$noproxy$$$1$$$./json/wogg.json",
+			"order_num": 9999
+		},	
+			{
+			"key": "hipy_js_多多影音",
+			"name": "多多影音(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/多多影音.js"
+		},
+		{
 			"key": "hipy_js_360影视[官]",
 			"name": "360影视[官](drpy_t3)",
 			"type": 3,
@@ -91,18 +114,6 @@
 			"order_num": 0,
 			"ext": "./drpy_js/百忙无果[官].js"
 		},
-		{
-			"key": "yydsys",
-			"name": "多多影音|网盘",
-			"type": 3,
-			"api": "csp_Wobg",
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 1,
-			"timeout": 60,
-			"ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
-			"order_num": 9999
-		},		
 		{
 			"key": "hipy_js_哔哩影视[官]",
 			"name": "哔哩影视[官](drpy_t3)",
@@ -1300,17 +1311,6 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/短剧TV网.js"
-		},
-		{
-			"key": "hipy_js_多多影音",
-			"name": "多多影音(drpy_t3)",
-			"type": 3,
-			"api": "./drpy_libs/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./drpy_js/多多影音.js"
 		},
 		{
 			"key": "hipy_js_多多追剧[优]",
@@ -3178,15 +3178,15 @@
 			"ext": "./drpy_js/歪片星球[资].js"
 		},
 		{
-			"key": "yydsby",
-			"name": "多多备用|网盘",
+			"key": "yydsys",
+			"name": "玩你老哥|网盘",
 			"type": 3,
 			"api": "csp_Wobg",
 			"quickSearch": 1,
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./json/tokenm.json$$$https://tv.yydsys.cc/$$$proxy$$$1$$$./json/wogg.json",
+			"ext": "./json/tokenm.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$./json/wogg.json",
 			"order_num": 9999
 		},
 		{
@@ -3721,6 +3721,17 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/熊猫TV.js"
+		},
+		{
+			"key": "hipy_js_修罗影视",
+			"name": "修罗影视(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/修罗影视.js"
 		},
 		{
 			"key": "hipy_js_旋风视频",
