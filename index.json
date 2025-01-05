@@ -34,7 +34,7 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./json/tokenm.json$$$https://tv.yydsys.cc/$$$noproxy$$$1$$$./json/wogg.json",
+			"ext": "./json/tokenm.json$$$https://tv.yydsys.cc/$$$proxy$$$1$$$./json/wogg.json",
 			"order_num": 9999
 		},	
 			{
