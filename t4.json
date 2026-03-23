@@ -161,6 +161,12 @@
       "type": 4,
       "api": "https://catbox.n13.club/t9/qingting.php"
     },
+	  {
+     "key": "7mxs",
+     "name": "七猫小说[影视]",
+     "type": 4,
+     "api": "./php/七猫小说 ᵈᶻ.php"
+     },
     {
      "key": "rrys",
      "name": "人人影视[影视]",
