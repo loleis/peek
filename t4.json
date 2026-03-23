@@ -105,13 +105,13 @@
       "key": "drpy2_豆瓣[官]",
       "name": "豆瓣[官](DR2)",
       "type": 3,
-      "api": "./public/drpy/drpy2.min.js",
+      "api": "./drpy_libs/drpy2.min.js",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
       "title": "豆瓣[官]",
       "lang": "dr2",
-      "ext": "./js/豆瓣[官].js?pwd=dzyyds"
+      "ext": "./drpy_js/豆瓣[官].js?pwd=dzyyds"
     },
 	{
       "key": "drpyS_蜻蜓FM[听]",
