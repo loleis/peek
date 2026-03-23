@@ -1,0 +1,398 @@
+{
+  "spider": "",
+  "wallpaper": "",
+  "warningText": "此文件可以随意调节自己想要的任何数据",
+  "logo": "http://php.540734621.xyz/logo/logo.php",
+  "sites": [
+    {
+      "key": "home_tab",
+      "name": "🏠 PeekPili[首页]",
+      "type": 3,
+      "api": "./lib/js/peekpili.js",
+      "filterable": 1,
+      "switchable": 1
+    },
+    {
+      "key": "config0",
+      "name": "🟢 更新端口",
+      "type": 3,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "api": "./start.py"
+    },
+    {
+      "key": "config1",
+      "name": "🟢 文本资源",
+      "type": 4,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "api": "http://127.0.0.1:9980/start.php?mode=scan-only&type=text"
+    },
+    {
+      "key": "config2",
+      "name": "🟢 快搜资源",
+      "type": 4,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "api": "http://127.0.0.1:9980/start.php?mode=scan-only&type=script"
+    },
+    {
+      "key": "config3",
+      "name": "🟢 PeekPili代理",
+      "type": 4,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "api": "http://127.0.0.1:9980/start.php?mode=template"
+    },
+    {
+      "key": "config4",
+      "name": "🟢 合并道长",
+      "type": 4,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "api": "http://127.0.0.1:9980/start.php?mode=insert"
+    },
+    {
+      "key": "config5",
+      "name": "🟢 专享道长",
+      "type": 4,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "api": "http://127.0.0.1:9980/start.php?mode=cover"
+    },
+    {
+      "key": "config6",
+      "name": "🟢 资源管理",
+      "type": 3,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "api": "./Resources.py"
+    },
+    {
+      "key": "push_agent",
+      "name": "Push | 推送",
+      "type": 3,
+      "hide": 1,
+      "api": "csp_Push"
+    }
+  ],
+  "parses": [
+    {
+      "name": "J1",
+      "url": "https://kalbim.xatut.top/kalbim2025/781718/play/video_player.php?url=",
+      "type": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "J2",
+      "url": "http://sspa8.top:8100/api/?key=1060089351&url=",
+      "type": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "J芒果4k",
+      "url": "http://mg.itufm.top/mg.php?url=",
+      "type": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W花旗",
+      "url": "https://www.huaqi.live/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W冰豆",
+      "url": "https://bd.jx.cn/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W盘古",
+      "url": "https://www.playm3u8.cn/jiexi.php?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W1",
+      "url": "https://jx.xymp4.cc/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W2",
+      "url": "https://cdnsrc.cdnapi.top/json/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W3",
+      "url": "https://yparse.ik9.cc/index.php?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W4",
+      "url": "https://jiexi.site/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W5",
+      "url": "https://jx.m3u8.tv/jiexi/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W7",
+      "url": "https://www.pangujiexi.com/jiexi/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W8",
+      "url": "https://www.pouyun.com/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "W9",
+      "url": "https://jx.xmflv.com/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "Wa",
+      "url": "https://jx.xmflv.cc/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "Wb",
+      "url": "https://jx.yparse.com/index.php?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "Wc",
+      "url": "https://www.8090g.cn/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "Wz",
+      "url": "https://www.ckplayer.vip/jiexi/?url=",
+      "type": 0,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    },
+    {
+      "name": "Wy",
+      "url": "http://1.94.221.189:88/algorithm.php?url=",
+      "type": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    }
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "name": "hwk",
+      "hosts": [
+        "haiwaikan"
+      ],
+      "regex": [
+        "10.0099",
+        "10.3333",
+        "16.0599",
+        "8.1748",
+        "10.85"
+      ]
+    },
+    {
+      "name": "yqk",
+      "hosts": [
+        "yqk88"
+      ],
+      "regex": [
+        "18.4",
+        "15.1666"
+      ]
+    },
+    {
+      "name": "sn",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+        "15.1666",
+        "15.2666"
+      ]
+    },
+    {
+      "name": "bf",
+      "hosts": [
+        "bfzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "xx",
+      "hosts": [
+        "aws.ulivetv.net"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "lz",
+      "hosts": [
+        "vip.lz",
+        "hd.lz",
+        "v.cdnlz1",
+        "v.cdnlz"
+      ],
+      "regex": [
+        "18.5333"
+      ]
+    },
+    {
+      "name": "非凡",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "25.0666"
+      ]
+    },
+    {
+      "name": "hs",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "dy",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "nm",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "cl",
+      "hosts": [
+        "magnet"
+      ],
+      "regex": [
+        "最 新",
+        "直 播",
+        "更 新"
+      ]
+    }
+  ],
+  "lives": []
+}
