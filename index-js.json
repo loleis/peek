@@ -1335,6 +1335,17 @@
 			"ext": "./drpy_js/番号资源[密].js"
 		},
 		{
+			"key": "hipy_js_灯笔小说[书]",
+			"name": "灯笔小说[书](drpy_t3)",
+			"type": 3,
+			"api": "./js/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./js/灯笔小说[书].js"
+		},
+		{
 			"key": "hipy_js_番茄小说[书]",
 			"name": "番茄小说[书](drpy_t3)",
 			"type": 3,
