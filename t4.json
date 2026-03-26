@@ -126,7 +126,13 @@
       "lang": "ds",
       "ext": "./drpy_js/蜻蜓FM[听].js?pwd=dzyyds"
     },
-	  
+	  {
+            "key": "随身评书1",
+            "name": "📚随身┃评书1",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/随身评书.js"
+        },
       
 {
   "key":"lf_js_lf_live",
