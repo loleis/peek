@@ -1211,7 +1211,7 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./drpy_js/顶点小说[书].js"
+			"ext": "./js/顶点小说[书].js"
 		},
 		{
 			"key": "hipy_js_顶点小说2[书]",
@@ -1222,7 +1222,7 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./drpy_js/顶点小说2[书].js"
+			"ext": "./js/顶点小说2[书].js"
 		},
 		{
 			"key": "hipy_js_动漫巴士[漫]",
