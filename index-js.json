@@ -1346,8 +1346,8 @@
 			"ext": "./js/灯笔小说[书].js"
 		},
 		{
-			"key": "hipy_js_番茄小说1[书]",
-			"name": "番茄小说1[书](drpy_t3)",
+			"key": "hipy_js_番茄阅读1[书]",
+			"name": "番茄阅读1[书](drpy_t3)",
 			"type": 3,
 			"api": " ",
 			"searchable": 1,
@@ -1365,7 +1365,7 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "./js/番茄小说[书].js"
+			"ext": "./drpy_js/番茄小说[书].js"
 		},
 		{
 			"key": "hipy_js_饭团影视",
